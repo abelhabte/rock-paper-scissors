@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset = "UTF-8">
+<link rel = "stylesheet" type = "text/css" href = "rock-paper-scissors.css">
+<script type = "text/javascript" src = "rock-paper-scissors.js"></script>
+    <head>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <p>
+            player 1 controls: a = rock, s = paper, d = scissors<br>
+            player 2 controls: j = rock, k = paper, l = scissors
+        </p>
+        <div class="container">
+            <div class="box1">
+                <div id="rock1">
+                    <img src="images/rock.jpg" alt="rock">
+                </div>
+                <div id="paper1">
+                    <img src="images/paper.jpg" alt="paper">
+                </div>
+                <div id="scissors1">
+                    <img src="images/scissors.jpg" alt="scissors">
+                </div>
+            </div>
+            <div class="box2">
+                <div id="rock2">
+                    <img src="images/rock.jpg" alt="rock">
+                </div>
+                <div id="paper2">
+                    <img src="images/paper.jpg" alt="paper">
+                </div>
+                <div id="scissors2">
+                    <img src="images/scissors.jpg" alt="scissors">
+                </div>
+            </div>
+        </div>
+        <div id="outcome1" class="hiddenText">rock beats scissors</div>
+        <div id="outcome2" class="hiddenText">scissors beats paper</div>
+        <div id="outcome3" class="hiddenText">paper beats rock</div>
+        <div id="outcome4" class="hiddenText">tie</div>
+        <p>
+            player 1 score: <span id="player_1_score">0</span><br>
+            player 2 score: <span id="player_2_score">0</span><br><br>
+            r = reset game
+        </p>
+    </body>
+</html>
